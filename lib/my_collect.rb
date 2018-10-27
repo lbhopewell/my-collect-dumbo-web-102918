@@ -7,13 +7,13 @@ def my_collect(array)
   #binding.pry
   i = i + 1
 end
-new_array
+array
 end
 
 array = ["Tim Jones", "Tom Smith", "Jim Campagno"]
 new_array = []
 my_collect(array) do |name|
-  new_array << name.split(" ").first 
+  name.split(" ").first 
 #binding.pry
 end
 
