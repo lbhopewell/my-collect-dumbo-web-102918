@@ -12,7 +12,7 @@ end
 array = ["Tim Jones", "Tom Smith", "Jim Campagno"]
 new_array = []
 my_collect(array) do |name|
-  name.split(" ").first 
+  new_array << name.split(" ").first 
 #binding.pry
 end
 
