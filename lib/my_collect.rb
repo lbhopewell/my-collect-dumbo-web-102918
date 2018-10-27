@@ -1,14 +1,14 @@
 require "pry"
 
 def my_collect(array)
-  
+  new_array = []
   i = 0 
   while i < array.length
-  yield (array[i])
+  new_array << yield (array[i])
   #binding.pry
   i = i + 1
 end
-array
+new_array
 end
 
 array = ["Tim Jones", "Tom Smith", "Jim Campagno"]
