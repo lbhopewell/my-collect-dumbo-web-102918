@@ -7,6 +7,7 @@ def my_collect(array)
   #binding.pry
   i = i + 1
 end
+new_array
 end
 
 array = ["Tim Jones", "Tom Smith", "Jim Campagno"]
